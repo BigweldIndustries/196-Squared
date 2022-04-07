@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name     196²
-// @version  1.1
+// @version  1.0
 // @grant    none
 // @include  https://reddit.com/r/196/
 // @include  https://www.reddit.com/r/196/
 // @updateURL    https://github.com/BigweldIndustries/196-Squared/raw/main/script.user.js
 // @downloadURL  https://github.com/BigweldIndustries/196-Squared/raw/main/script.user.js
+// @author  Bigweld
+// @description  A simple userscript to remove repetitive posts from the subreddit r/196
 // ==/UserScript==
 
 // List of words that are commonly found in repetitive posts
@@ -32,4 +34,3 @@ var posts = document.getElementsByClassName("Post");
 }
 
 setInterval(check,100);
-//testing
