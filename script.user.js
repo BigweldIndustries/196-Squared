@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     196²
-// @version  1.1
+// @version  1.2
 // @grant    none
 // @include  https://reddit.com/r/196/
 // @include  https://www.reddit.com/r/196/
@@ -33,4 +33,4 @@ var posts = document.getElementsByClassName("Post");
 
 setInterval(check,100);
 
-// Update test
+// Update test!
