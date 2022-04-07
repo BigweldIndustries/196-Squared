@@ -2,8 +2,8 @@
 // @name     196²
 // @version  1.0
 // @grant    none
-// @include  https://reddit.com/r/196/
-// @include  https://www.reddit.com/r/196/
+// @match  https://reddit.com/r/196/
+// @match  https://www.reddit.com/r/196/
 // @updateURL    https://github.com/BigweldIndustries/196-Squared/raw/main/script.user.js
 // @downloadURL  https://github.com/BigweldIndustries/196-Squared/raw/main/script.user.js
 // @author  Bigweld
