@@ -8,4 +8,4 @@ A simple userscript to remove repetitive posts from the subreddit r/196
 
 # How to install:
 1. [Download Violentmonkey](https://violentmonkey.github.io/get-it/)
-2. Click "Create a new script" in the Tampermonkey extension menu, and copy paste the contents of script.user.js
+2. [Click here to install the userscript](https://github.com/BigweldIndustries/196-Squared/raw/main/script.user.js)
