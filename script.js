@@ -32,3 +32,5 @@ var posts = document.getElementsByClassName("Post");
 }
 
 setInterval(check,100);
+
+// Update test
