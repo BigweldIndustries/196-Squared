@@ -1,5 +1,5 @@
 # 196-Squared
-A simple greasemonkey userscript to remove repetitive posts from the subreddit r/196
+A simple greasemonkey/tampermonkey userscript to remove repetitive posts from the subreddit r/196
 
 * [X] Filter titles
 * [ ] Filter images with OCR
