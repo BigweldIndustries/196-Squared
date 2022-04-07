@@ -4,8 +4,8 @@
 // @grant    none
 // @include  https://reddit.com/r/196/
 // @include  https://www.reddit.com/r/196/
-// @updateURL    https://github.com/BigweldIndustries/196-Squared/raw/master/script.js
-// @downloadURL  https://github.com/BigweldIndustries/196-Squared/raw/master/script.js
+// @updateURL    https://github.com/BigweldIndustries/196-Squared/raw/master/script.user.js
+// @downloadURL  https://github.com/BigweldIndustries/196-Squared/raw/master/script.user.js
 // ==/UserScript==
 
 // List of words that are commonly found in repetitive posts
