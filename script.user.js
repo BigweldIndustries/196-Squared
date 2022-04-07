@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     196²
-// @version  1.1
+// @version  1.2
 // @grant    none
 // @match  https://reddit.com/r/196/
 // @match  https://www.reddit.com/r/196/
