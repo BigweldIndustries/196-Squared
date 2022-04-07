@@ -7,7 +7,7 @@
 // ==/UserScript==
 
 // List of words that are commonly found in repetitive posts
-var cringe = ["rule","trans","selfie","nft","spronkus","upvote","gay","project","nazi","terf","ignore","karma","awards","transphob","i fucking love","metaverse","crypto","blockchain","all my homies","political","ok ima fight","asexual","chaser","harry potter","rowling"];
+var cringe = ["trans","selfie","nft","spronkus","upvote","gay","project","nazi","terf","ignore","karma","awards","transphob","i fucking love","metaverse","crypto","blockchain","all my homies","political","ok ima fight","asexual","chaser","harry potter","rowling"];
 
 function check(){
 var posts = document.getElementsByClassName("Post");
