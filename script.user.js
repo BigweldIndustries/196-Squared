@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name     196²
-// @version  1.3
+// @version  1.4
 // @grant    none
-// @match  https://www.reddit.com/r/196/
+// @match  https://www.reddit.com/r/196/*
 // @updateURL    https://github.com/BigweldIndustries/196-Squared/raw/main/script.user.js
 // @downloadURL  https://github.com/BigweldIndustries/196-Squared/raw/main/script.user.js
 // @author  Bigweld
@@ -10,11 +10,35 @@
 // ==/UserScript==
 
 // List of words that are commonly found in repetitive posts
-var cringe = ["trans","selfie","nft","spronkus","upvote","gay","project","nazi","terf","ignore","karma","awards","i fucking love","metaverse","crypto","blockchain","all my homies","political","ok ima fight","asexual","chaser","harry potter","rowling"];
+var cringe = ["rule",
+              "trans",
+              "selfie",
+              "nft",
+              "spronkus",
+              "upvote",
+              "gay",
+              "project",
+              "nazi",
+              "terf",
+              "ignore",
+              "karma",
+              "awards",
+              "i fucking love",
+              "metaverse",
+              "crypto",
+              "blockchain",
+              "all my homies",
+              "political",
+              "ok ima fight",
+              "asexual",
+              "chaser",
+              "harry potter",
+              "rowling"];
 
 function check(){
-var posts = document.getElementsByClassName("Post");
- for (var i=0; i < posts.length; i++) {
+ if (window.location.href == "https://www.reddit.com/r/196/"){
+  var posts = document.getElementsByClassName("Post");
+  for (var i=0; i < posts.length; i++) {
     var title = posts[i].getElementsByClassName("_eYtD2XCVieq6emjKBH3m");
     var good = true;
  
@@ -29,7 +53,9 @@ var posts = document.getElementsByClassName("Post");
      if (good == false){
         posts[i].parentNode.parentNode.parentNode.removeChild(posts[i].parentNode.parentNode);
      }
+  }
  }
 }
+
 
 setInterval(check,100);
