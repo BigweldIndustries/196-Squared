@@ -10,8 +10,7 @@
 // ==/UserScript==
 
 // List of words that are commonly found in repetitive posts
-var cringe = ["rule",
-              "trans",
+var cringe = ["trans",
               "selfie",
               "nft",
               "spronkus",
